@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:#fff;
+}
+body{
+    margin: 40px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background: rgb(2, 2, 56);
+    
+}
+.container{
+    width:500px;
+    height:1000px;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.grid--1x2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+}
+.Heading{
+    font-size:90px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    text-align: center;
+
+}
+
+
