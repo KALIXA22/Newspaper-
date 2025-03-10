@@ -7,6 +7,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(255, 255, 255);
 }
+.all{
+    border:0.5rem dotted black;
+    margin:0.5rem;
+    overflow: hidden;
+}
 .Header{
     margin-bottom:1rem;
     background: rgb(0, 0, 0);
@@ -55,6 +60,7 @@ img{
 }
 .navigation{
     display:inline-block;
+    text-align:center;
 }
 .Logo img{
     width:150px;
@@ -65,17 +71,16 @@ img{
     font-size:20px;
 }
 .marquee-container {
-    width: 100%;
+    width:100vw;
     overflow: hidden;
     white-space: nowrap;
-    background:rgb(0,0,0);
-    padding:2rem 0;
+    background: rgb(0, 0, 0);
 }
 
 .marquee-content {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 30s linear infinite;
+    animation:marquee 30s linear infinite;
 }
 
 @keyframes marquee {
@@ -84,7 +89,7 @@ img{
 }
 
 .marquee-content a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size:1.2rem;
     font-weight:700;
@@ -112,11 +117,13 @@ img{
         width:100rem;
         height:1rem;
     }
+    .left{
+        float:right;
+        margin-left:50rem;
+    }
     .header{
         margin-bottom:2rem;
         margin-left:5rem;
-        
-      
     }
     a{
         text-decoration: none;
@@ -172,7 +179,6 @@ img{
     }
     .navigation{
         display: flex;
-        margin-left:15rem;
     }
     .Logo img{
         width:15rem;
@@ -182,10 +188,10 @@ img{
         text-align: center;
     }
     .marquee-container {
-        width: 100%;
+        width:100vw;
+        align-items:center;
         overflow: hidden;
         white-space: nowrap;
-        background:rgb(0,0,0);
         padding:2rem 0;
     }
 
@@ -201,7 +207,7 @@ img{
     }
 
     .marquee-content a {
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
         margin: 0 20px;
         font-size:1.5rem;
